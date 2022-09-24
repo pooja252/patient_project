@@ -77,8 +77,8 @@ public class Patient {
         return username;
     }
 
-    public void setUsername(String firstname, String lastname) {
-        this.username = firstname + lastname;
+    public void setUsername(String username) {
+        this.username = username;
     }
 
     public String getCreatedby() {
@@ -101,6 +101,9 @@ public class Patient {
         return id;
     }
 
+    public String getFirstname() {
+        return lastname;
+    }
     public void setFirstname(String firstname) {
         this.firstname = firstname;
     }
